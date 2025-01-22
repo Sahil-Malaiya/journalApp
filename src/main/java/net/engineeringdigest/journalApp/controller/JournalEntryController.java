@@ -29,7 +29,7 @@ public class JournalEntryController {
     }
     @DeleteMapping("id/{myId}")
     public boolean deleteJournalEntryById(@PathVariable long myId){
-        journalEntries.remove(myId);
+         journalEntries.remove(myId);
         return true;
     }
     @PutMapping("/id/{id}")
