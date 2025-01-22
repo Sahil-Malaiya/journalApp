@@ -1,4 +1,4 @@
-package net.engineeringdigest.journalApp.controller;
+ package net.engineeringdigest.journalApp.controller;
 
 import net.engineeringdigest.journalApp.entity.JournalEntry;
 import org.springframework.web.bind.annotation.*;
