@@ -30,7 +30,6 @@ public class JournalEntryControllerV2 {
     journalEntryService.saveEntry(myEntry);
        return myEntry;
     }
-
     @GetMapping("id/{myId}")
     public JournalEntry getJournalEntryById(@PathVariable ObjectId myId){
      return journalEntryService.findById(myId).orElse(null);
