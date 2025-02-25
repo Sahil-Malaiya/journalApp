@@ -24,6 +24,7 @@ public class JournalEntryControllerV2 {
     public List<JournalEntry> getAll() {
       return journalEntryService.getAll();
     }
+
     @PostMapping()
     public JournalEntry createEntry(@RequestBody JournalEntry myEntry){
     myEntry.setDate(LocalDateTime.now());
